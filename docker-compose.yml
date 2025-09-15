@@ -1,0 +1,35 @@
+services:
+  php:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "80:80"
+    volumes:
+      - ./httpdocs:/var/www/html
+    environment:
+      DB_SERVER: db
+      SITE_URL: "http://localhost/"
+
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    command: --default-authentication-plugin=mysql_native_password --ssl=0
+    environment:
+      MYSQL_ROOT_PASSWORD: example1234
+      MYSQL_DATABASE: download_stats_panel
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./bd/download_stats_panel.sql:/docker-entrypoint-initdb.d/download_stats_panel.sql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_service
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql_db
+      MYSQL_ROOT_PASSWORD: example1234
+
+volumes:
+  dbdata:

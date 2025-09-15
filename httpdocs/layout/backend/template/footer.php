@@ -1,0 +1,1 @@
+<p>&copy; <?php echo date('Y') ?> Downloads Stats Panel</p>
