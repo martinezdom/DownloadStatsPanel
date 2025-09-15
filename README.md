@@ -84,6 +84,6 @@
 
 ## 👨‍💻 Autor
 
-Creado con ❤️ por [mmartinez-sollutia](https://github.com/mmartinez-sollutia)
+Creado con ❤️ por [martinezdom](https://github.com/martinezdom)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Miguel%20%C3%81ngel%20Mart%C3%ADnez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mmartinez-sollutia)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Miguel%20%C3%81ngel%20Mart%C3%ADnez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/martinezdom)
