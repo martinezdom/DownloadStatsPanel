@@ -137,6 +137,15 @@ Si prefieres una configuración más rápida y aislada, puedes usar Docker.
 
 ---
 
+### 🔑 Credenciales de prueba
+
+Para facilitar las pruebas del proyecto, se incluye un usuario de ejemplo en el volcado de la base de datos:
+
+- **Usuario:** `testuser`
+- **Contraseña:** `example1234`
+
+---
+
 ### 💡 Nota importante:
 Al usar Docker, no necesitas instalar XAMPP. Asegúrate de que los puertos **80** (HTTP) y **3306** (MySQL) estén libres para evitar conflictos con otros programas o servicios que tengas en tu sistema.
 
